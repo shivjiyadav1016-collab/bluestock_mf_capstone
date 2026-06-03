@@ -1,0 +1,3 @@
+SELECT *
+FROM fact_nav
+LIMIT 10;
