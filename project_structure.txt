@@ -1,0 +1,63 @@
+Folder PATH listing for volume Windows
+Volume serial number is 00000033 602E:AE5A
+C:.
+¦   check_db.py
+¦   data_cleaning.py
+¦   data_ingestion.py
+¦   live_nav_fetch.py
+¦   project_structure.txt
+¦   README.md
+¦   requirements.txt
+¦   sqlite_loader.py
+¦   test_day4.txt
+¦   
++---Dashboard
++---data
+¦   ¦   bluestock_mf.db
+¦   ¦   
+¦   +---processed
+¦   ¦       alpha_beta.csv
+¦   ¦       fund_scorecard.csv
+¦   ¦       nav_history_cleaned.csv
+¦   ¦       
+¦   +---Raw
+¦           01_fund_master.csv
+¦           02_nav_history.csv
+¦           03_aum_by_fund_house.csv
+¦           04_monthly_sip_inflows.csv
+¦           05_category_inflows.csv
+¦           06_industry_folio_count.csv
+¦           07_scheme_performance.csv
+¦           08_investor_transactions.csv
+¦           09_portfolio_holdings.csv
+¦           10_benchmark_indices.csv
+¦           Axis_Bluechip.csv
+¦           hdfc_top100_nav.csv
+¦           ICICI_Bluechip.csv
+¦           Kotak_Bluechip.csv
+¦           Nippon_Large_Cap.csv
+¦           SBI_Bluechip.csv
+¦           
++---live
+¦       live_nav_fetch.py
+¦       
++---Notebook
+¦   ¦   03_eda_analysis.ipynb
+¦   ¦   04_performance_analytics.ipynb
+¦   ¦   05_advanced_analytics.ipynb
+¦   ¦   alpha_beta.csv
+¦   ¦   benchmark_comparison.png
+¦   ¦   fund_scorecard.csv
+¦   ¦   PATH_TO_YOUR_DB_FILE.db
+¦   ¦   tracking_error.csv
+¦   ¦   
+¦   +---.ipynb_checkpoints
+¦           03_eda_analysis-checkpoint.ipynb
+¦           04_performance_analytics-checkpoint.ipynb
+¦           05_advanced_analytics-checkpoint.ipynb
+¦           
++---Report
++---SQL
+        queries.sql
+        schema.sql
+        
